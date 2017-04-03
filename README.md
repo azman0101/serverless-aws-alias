@@ -5,6 +5,7 @@ all constellations that are possible within a Serverless service. The plugin
 is currently tested with Serverless 1.6.1. It is important that you try that
 version and the newest one.
 
+
 This plugin enables use of AWS aliases on Lambda functions. The term alias must not
 be mistaken as the stage. Aliases can be deployed to stages, e.g. if you work on
 different VCS branches in the same service, you can deploy your branch to a
