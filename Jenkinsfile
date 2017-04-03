@@ -1,9 +1,11 @@
 pipeline {
+	agent {
      docker {
         image 'laardee/serverless:latest'
         label 'my-defined-label'
         args  '-v /tmp:/tmp'
     }
+	}
 
     stages {
         stage('Test') {
