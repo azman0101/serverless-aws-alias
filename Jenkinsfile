@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing1..'
-							  uname -a
+							  sh 'uname -a'
             }
         }
         stage('Deploy') {
