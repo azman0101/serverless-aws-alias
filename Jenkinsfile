@@ -1,7 +1,7 @@
 pipeline {
 	agent {
      docker {
-        image 'laardee/serverless:latest'
+        image 'azman0101/serverless:latest'
         args  '-v /tmp:/tmp'
     }
 	}
