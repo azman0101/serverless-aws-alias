@@ -13,6 +13,7 @@ pipeline {
 							  sh 'uname -a'
 								sh 'pwd'
 								sh 'ls -lah'
+							  sh 'node --version'
             }
         }
         stage('Deploy') {
