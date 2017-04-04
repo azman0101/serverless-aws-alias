@@ -11,6 +11,8 @@ pipeline {
             steps {
                 echo 'Testing1..'
 							  sh 'uname -a'
+								sh 'pwd'
+								sh 'ls -lah'
             }
         }
         stage('Deploy') {
